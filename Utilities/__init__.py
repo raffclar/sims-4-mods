@@ -3,9 +3,10 @@ from zipfile import PyZipFile, ZIP_STORED
 import shutil
 
 import io
-from Utilities.unpyc3 import decompile
 import fnmatch
 import os
+
+from uncompyle6.main import decompile
 
 
 def decompile_dir(rootPath):

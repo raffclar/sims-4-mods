@@ -1,10 +1,5 @@
 import logging
-from zipfile import PyZipFile, ZIP_STORED, ZipFile
-
-import shutil
-
-import io
-import fnmatch
+from zipfile import PyZipFile, ZIP_STORED
 import os
 
 

@@ -1,6 +1,6 @@
 import os
 
-from utilities import extract_folder
+from Utilities import extract_folder
 
 
 def decompile_all(input_directory: str, output_directory: str):
